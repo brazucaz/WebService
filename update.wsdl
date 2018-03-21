@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<definitions name='update'
+			 targetNamespace='http://localhost/donor'
+			 xmlns:tns='http://localhost/donor'
+			 xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/' 
+			 xmlns:xsd='http://www.w3.org/2001/XMLSchema' 
+			 xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' 
+			 xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/' 
+			 xmlns='http://schemas.xmlsoap.org/wsdl/'>
+	
+	<message name='readBookRequest'>
+		<part name='bookId' type='xsd:string' />
+	</message>
+	<message name='readBookResponse'>
+		<part name='result' type='xsd:string' />
+	</message>
+	
+</definitions>
